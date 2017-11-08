@@ -1,29 +1,28 @@
-// var budgetController = (function() {
-// 	var x = 23;
+BUDGET CONTROLLER
 
-// 	var add = function(a) {
-// 		return x + a;
-// 	}
-
-// 	return {
-// 		publicTest: function(b) {
-// 			console.log(add(b));
-// 		}
-// 	}
-// })();
-
-var fungsiUtama = (function() {
-	var a = 1;
-
-	var tambah = function(x) {
-		return a + x;
+var budgetController = (function() {
+	//some code
 	}
+
 	return {
 		publicTest: function(b) {
-			console.log(tambah(b));
+			return add(b);
 		}
 	}
 })();
 
-tes
 
+var UIController = (function() {
+	//some code
+})();
+
+
+var controller = (function(budgetCtrl,UICtrl) {
+	var z = budgetCtrl.publicTest(5);
+	return {
+		anotherPublic: function() {
+			console.log(z);
+		}
+	}
+})(budgetController,UIController);
+	
