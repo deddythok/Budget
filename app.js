@@ -36,7 +36,7 @@ var budgetController = (function() {
 				newItem = new Income(ID,des, val)l
 			}
 
-			data.allItems(type). push()
+			data.allItems(type). push(newIet)
 
 		}
 			
