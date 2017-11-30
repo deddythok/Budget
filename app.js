@@ -228,7 +228,7 @@ var controller = (function(budgetCtrl,UICtrl) {
 	};
 
 	var ctrlDeleteItem = function(event) {
-
+		console.log(event.target);
 	};
 
 
